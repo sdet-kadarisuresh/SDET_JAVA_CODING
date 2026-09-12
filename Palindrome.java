@@ -1,0 +1,24 @@
+public class Palindrome {
+    public static void main(String[] args) {
+        String str = "madam";
+        char[] arr = str.toCharArray();
+        int left = 0;
+        int right = arr.length - 1;
+        boolean palindrome = true;
+
+        while (left < right) {
+            if (arr[left] != arr[right]) {
+                palindrome = false;
+                break;
+            }
+            left++;
+            right--;
+        }
+
+        if (palindrome) {
+            System.out.println("yes");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
