@@ -1,24 +1,27 @@
-public class Palindrome {
-    public static void main(String[] args) {
-        String str = "madam";
+class Palindrome {
+    public static void main(String args[]) {
+        String str = "heooeho";
+        boolean palindrome = true;
+
         char[] arr = str.toCharArray();
+
         int left = 0;
         int right = arr.length - 1;
-        boolean palindrome = true;
 
         while (left < right) {
             if (arr[left] != arr[right]) {
                 palindrome = false;
-                break;
+ v                 break;
             }
+
             left++;
             right--;
         }
 
         if (palindrome) {
-            System.out.println("yes");
+            System.out.println("Yes, the given string is a palindrome: " + str);
         } else {
-            System.out.println("NO");
+            System.out.println("No, the given string is not a palindrome: " + str);
         }
     }
 }
