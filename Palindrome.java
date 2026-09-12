@@ -1,4 +1,6 @@
 class Palindrome {
+
+    // Pattern: two pointer+ravel + check last==first
     public static void main(String args[]) {
         String str = "heooeho";
         boolean palindrome = true;
