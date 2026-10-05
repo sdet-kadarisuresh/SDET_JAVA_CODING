@@ -1,3 +1,5 @@
+package SDET_JAVA_CODING.Strings;
+
 class Palindrome {
 
     // Pattern: two pointer+ravel + check last==first
@@ -13,7 +15,7 @@ class Palindrome {
         while (left < right) {
             if (arr[left] != arr[right]) {
                 palindrome = false;
- v                 break;
+                                 break;
             }
 
             left++;
