@@ -1,4 +1,5 @@
-package SDET_JAVA_CODING.Strings;
+package SDET_JAVA_CODING.Strings.Day01;
+
 
 public class Printeverycharacter{
     public static void main(String[] args) {
