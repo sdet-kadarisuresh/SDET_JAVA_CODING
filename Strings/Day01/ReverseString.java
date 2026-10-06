@@ -3,7 +3,6 @@ package SDET_JAVA_CODING.Strings.Day01;
 public class ReverseString {
 
     public static void main(String[] args) {
-
         String s = "automation";
 
         char[] ch = s.toCharArray();
